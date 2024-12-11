@@ -1,3 +1,4 @@
+import { Button } from "@/components/button";
 import { Steps } from "@/components/steps";
 import { Welcome } from "@/components/welcome";
 import { View } from "react-native";
@@ -13,6 +14,9 @@ export default function App() {
     >
       <Welcome />
       <Steps />
+      <Button>
+        <Button.Title>Get Started</Button.Title>
+      </Button>
     </View>
   );
 }
