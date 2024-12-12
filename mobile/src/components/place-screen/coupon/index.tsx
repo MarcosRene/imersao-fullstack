@@ -11,7 +11,7 @@ type CouponProps = {
 export function Coupon({ code }: CouponProps) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Utilize esse cupom</Text>
+      <Text style={styles.title}>Use this coupon</Text>
 
       <View style={styles.content}>
         <IconTicket size={24} color={colors.green.light} />
